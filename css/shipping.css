@@ -1,0 +1,34 @@
+.shipping {
+    padding: 4rem 0;
+    background-color: white;
+}
+
+.shipping h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+.shipping-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.shipping-item {
+    text-align: center;
+    padding: 2rem;
+}
+
+.shipping-item svg {
+    color: var(--color-primary);
+    margin-bottom: 1rem;
+}
+
+.shipping-item h3 {
+    margin-bottom: 0.5rem;
+}
+
+.shipping-item p {
+    color: #666;
+}
